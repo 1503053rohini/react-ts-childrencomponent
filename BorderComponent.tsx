@@ -15,7 +15,7 @@ import LoggerHoc from './LoggerHoc';
 
 
 //passing this var to loggerHoc Function
-let BorderConponent=(props)=>
+let BorderVar=(props)=>
 {
 return(
 <div style={{backgroundColor:'red', padding:100}}>
@@ -27,4 +27,4 @@ return(
 );
 }
 
-export default LoggerHoc(BorderConponent);
+export default LoggerHoc(BorderVar);
